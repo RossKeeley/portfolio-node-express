@@ -13,6 +13,10 @@ app.get('/contact', (req, res) => {
   res.sendFile(path.join(__dirname, './static/contact.html'));
 });
 
+app.get('/about-me', (req, res) => {
+  res.sendFile(path.join(__dirname, './static/about-me.html'));
+});
+
 app.listen(port, (req, res) => {
   console.log(`Express server is listening on port ${port}!`);
 });
