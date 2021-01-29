@@ -1,0 +1,30 @@
+{
+  "name": "portfolio-node-express",
+  "version": "1.0.0",
+  "description": "My node.js express portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RossKeeley/portfolio-node-express.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "html",
+    "css",
+    "react.js"
+  ],
+  "author": "Ross Keeley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RossKeeley/portfolio-node-express/issues"
+  },
+  "homepage": "https://github.com/RossKeeley/portfolio-node-express#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
