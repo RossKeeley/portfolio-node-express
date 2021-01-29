@@ -3,7 +3,7 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
-    <title>Portfolio Homepage</title>
+    <title>Ross Keeley Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
@@ -29,14 +29,23 @@
     <section class="projects">
       <div class="projects-heading">
         <h3>Projects</h3>
+      </div>
+      <div class="project-cards">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras efficitur, turpis ac tristique vestibulum, massa lorem maximus nunc, nec sodales magna orci quis orci. Phasellus tincidunt est sit amet egestas consequat. Duis ut velit eu tellus aliquet dapibus lobortis vel felis. Curabitur volutpat massa eu dignissim convallis. Duis at neque id tellus semper efficitur. Sed tempor dolor semper, elementum diam eget, ultricies mauris. Proin id est semper, aliquet arcu porta, dictum magna. Aenean risus felis, vehicula nec accumsan ut, tincidunt et mauris. Nunc a lacus lobortis, aliquam tellus a, rutrum sem.
 
-Cras ac ultrices sapien, sed volutpat augue. Morbi a consectetur arcu, et suscipit velit. Sed scelerisque placerat turpis, vel hendrerit odio vestibulum ut. Aenean facilisis, diam ac mattis tempus, tellus orci rutrum enim, non suscipit erat magna pulvinar tellus. Fusce lacinia elit a ligula consequat bibendum. Nulla accumsan sapien id libero interdum, vitae tincidunt metus finibus. Vestibulum sed feugiat augue. Curabitur id vehicula libero. Etiam id tellus egestas, efficitur quam sit amet, ultrices mauris. Maecenas quis turpis quis ipsum porttitor hendrerit. Cras nec lacinia nisl. Sed ante mi, consequat a consequat nec, euismod ut quam. Nulla velit sem, tincidunt vel nulla vel, faucibus pulvinar ante.
+  Cras ac ultrices sapien, sed volutpat augue. Morbi a consectetur arcu, et suscipit velit. Sed scelerisque placerat turpis, vel hendrerit odio vestibulum ut. Aenean facilisis, diam ac mattis tempus, tellus orci rutrum enim, non suscipit erat magna pulvinar tellus. Fusce lacinia elit a ligula consequat bibendum. Nulla accumsan sapien id libero interdum, vitae tincidunt metus finibus. Vestibulum sed feugiat augue. Curabitur id vehicula libero. Etiam id tellus egestas, efficitur quam sit amet, ultrices mauris. Maecenas quis turpis quis ipsum porttitor hendrerit. Cras nec lacinia nisl. Sed ante mi, consequat a consequat nec, euismod ut quam. Nulla velit sem, tincidunt vel nulla vel, faucibus pulvinar ante.
 
-Vestibulum lorem odio, tristique sed placerat non, congue et nunc. Fusce dapibus placerat turpis, nec blandit justo laoreet at. Phasellus elit erat, egestas vitae egestas in, imperdiet eu velit. Cras vel metus rutrum, posuere felis at, luctus lacus. Phasellus dolor tortor, iaculis vel feugiat eu, varius eget odio. Donec malesuada nulla eu lectus hendrerit, eget pharetra eros finibus. Donec tempus augue sed urna blandit, sed luctus arcu pharetra.
+  Vestibulum lorem odio, tristique sed placerat non, congue et nunc. Fusce dapibus placerat turpis, nec blandit justo laoreet at. Phasellus elit erat, egestas vitae egestas in, imperdiet eu velit. Cras vel metus rutrum, posuere felis at, luctus lacus. Phasellus dolor tortor, iaculis vel feugiat eu, varius eget odio. Donec malesuada nulla eu lectus hendrerit, eget pharetra eros finibus. Donec tempus augue sed urna blandit, sed luctus arcu pharetra.
         </p>
       </div>
     </section>
+    <!-- <script src="./javascript/index.js" /> -->
+    <script type="text/javascript">
+      window.addEventListener('scroll', () => {
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky', window.scrollY > 0);
+      });
+    </script>
   </body>
 </html>

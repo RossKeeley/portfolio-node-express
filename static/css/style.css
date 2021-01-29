@@ -24,6 +24,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  transition: 0.5s;
+}
+
+header.sticky {
+  background: #fff;
+  padding: 20px 100px;
 }
 
 header .menu {
@@ -52,7 +58,10 @@ header ul li a {
   font-size: 10px;
   position: relative;
   display: inline-block;
-  margin: 0 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;;
+  margin-right: 5px;
   color: #111;
   text-decoration: none;
 }
@@ -61,7 +70,7 @@ header ul li a {
 
 .banner {
   position: relative;
-  min-height: 70vh;
+  height: 80vh;
   background: #f2f2f2;
   background-size: cover;
   background-position: right;
@@ -101,4 +110,16 @@ header ul li a {
   text-decoration: none;
   letter-spacing: 1px;
   font-weight: 500;
+}
+
+/* ----------------- PROJECTS ----------------- */
+
+.projects {
+  margin-top: -60px;
+}
+
+.projects-heading {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
