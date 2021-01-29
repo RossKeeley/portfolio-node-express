@@ -6,10 +6,15 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
 }
 
 section {
   padding: 100px;
+}
+
+section.contact {
+  padding: 80px;
 }
 
 /* --------------- HEADER MENU --------------- */
@@ -121,5 +126,38 @@ header ul li a {
 .projects-heading {
   display: flex;
   justify-content: center;
+  margin-bottom: 10px;
+}
+
+/* --------------------- CONTACT PAGE --------------------- */
+
+.contact {
+  background: #fafafa;
+}
+
+.contact-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  width: 40%;
+  padding-right: 5%;
+}
+
+.form-box {
+  width: 60%;
+  padding-left: 5%;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-box form h3 {
+  font-size: 15px;
+  font-weight: 300px;
   margin-bottom: 10px;
 }
