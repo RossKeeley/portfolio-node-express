@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Pppins&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: -65px;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url("https://www.wallpaperup.com/uploads/wallpapers/2013/02/26/45193/fef3bb847cceb488781f979a4677e477.jpg");
+  background-color: #130f40;
+  color: #fff;
+}
+
+button {
+  color: #fff;
+  background-color: transparent;
+  border: 1px solid rgba(192,192,192,0.88);
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer-container {
+  margin: -50px 20px 20px;
+}
+
+.timer-container h2 {
+  margin: 0;
+}
+
+.actions-wrapper span {
+  font-size: 40px;
+  margin: 0 10px;
+  width: 50px;
+}
+
+.clock-container {
+  background-color: rgba(192,192,192,0.2);
+/*   opacity: 0.1; */
+  border: 1px solid rgba(192,192,192,0.88);
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  width: 450px;
+}
+
+.clock-container h1 {
+  margin: 0px;
+}
+
+.clock-container span {
+  font-size: 60px;
+}
